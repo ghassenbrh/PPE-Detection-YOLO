@@ -1,4 +1,4 @@
-# 🛡️ PPE Detection System (Industrial Safety) - YOLO11
+# 🛡️ PPE Detection System (Industrial Safety) - YOLOv8
 
 Ce projet est un système de surveillance en temps réel basé sur l'IA pour détecter le port des Équipements de Protection Individuelle (EPI).
 
@@ -15,7 +15,7 @@ Le modèle a été entraîné de manière incrémentale par transfert d'apprenti
 3. **Étape 3 :** Finalisation avec le port du gilet de sécurité.
 
 ## 🛠️ Spécifications techniques
-- **Modèle :** YOLO11 Nano (Inférence ultra-rapide pour webcam).
+- **Modèle :** YOLOv8 (Inférence ultra-rapide pour webcam).
 - **Résolution :** 512x512 pixels.
 - **Optimisation :** Entraînement sur GPU avec augmentations de données (Flip, Brightness).
 
