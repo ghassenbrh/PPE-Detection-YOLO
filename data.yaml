@@ -2,8 +2,9 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['incorrectly_worn_mask', 'with_mask', 'without_mask']
+nc: 7
+names: ['incorrectly_worn_mask', 'with_mask', 'without_mask', 'Gloves', 'NO-Gloves', 'safety_vest', 'no_safety_vest']
+
 
 roboflow:
   workspace: ghassen-chpmw
